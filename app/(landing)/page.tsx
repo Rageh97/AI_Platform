@@ -1,5 +1,5 @@
 const LandingPage = () => {
-  return <div>landing page (unprotected)</div>;
+  return <div>Landing page</div>;
 };
 
 export default LandingPage;
