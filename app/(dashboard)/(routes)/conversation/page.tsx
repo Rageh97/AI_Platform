@@ -6,7 +6,6 @@ import { useForm } from "react-hook-form";
 import {formSchema} from "./constants"
 import {zodResolver} from "@hookform/resolvers/zod"
 import { Form, FormControl, FormField, FormItem } from "@/components/ui/form";
-import { name } from './../../../../.next/server/app/(landing)/page';
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 const Conversation = () => {
@@ -51,7 +50,7 @@ const Conversation = () => {
            </Form>
         </div>
         <div className="space-y-4 mt-4">
-            Message content
+            Message content 
         </div>
       </div>
     </div>
